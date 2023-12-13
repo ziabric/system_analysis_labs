@@ -46,9 +46,9 @@ std::string task(const std::string &csv)
     auto graph = parseGraph(csv, maxNode);
     auto parents = computeParents(graph, maxNode);
 
-    std::vec
-    for (int i = 0; i < maxNode; i += 1)
-    {
+    // std::vec
+    // for (int i = 0; i < maxNode; i += 1)
+    // {
 
-    }
+    // }
 }

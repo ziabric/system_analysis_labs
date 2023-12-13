@@ -35,7 +35,7 @@ int main(int argc, char** argv)
     if ( argc != 4 )
     {
         std::cout<<"You need to enter 3 arguments\n"
-        << "1 - Full path to CSV file\n"
+        << "1 - Path to CSV file\n"
         << "2 - Row number\n"
         << "3 - Column number"
         << std::endl;

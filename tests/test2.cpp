@@ -1,4 +1,4 @@
-#include <task2/task2.cpp>
+#include <task2/task.cpp>
 int main() {
     std::string csv = "0,1\n0,2\n1,3\n2,4";
     int maxNode;
