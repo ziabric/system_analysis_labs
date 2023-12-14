@@ -8,8 +8,7 @@
 #include <algorithm>
 #include <cmath>
 
-
-float task(const std::string& csv)
+double task(const std::string& csv)
 {
     std::vector<std::vector<int> > input = {};
 
@@ -39,14 +38,14 @@ float task(const std::string& csv)
         }
         input.push_back(tmp);
     }
-    float result = 0.0f;
+    double result = 0.0f;
 
     for (int i = 0; i < input.size(); i += 1)
     {
         for (int j = 0; j < input.at(i).size(); j += 1)
         {
-            float tmp1 = input.at(i).at(j) / ( input.size() - 1 );
-            float tmp2 = std::log2(input.at(i).at(j) / ( input.size() - 1));
+            double tmp1 = input.at(i).at(j) / ( input.size() - 1 );
+            double tmp2 = std::log2(input.at(i).at(j) / ( input.size() - 1));
 
             result += (input.at(i).at(j) / ( input.size() - 1 )) * std::log2(input.at(i).at(j) / ( input.size() - 1));
         }
