@@ -31,7 +31,7 @@ void findChildren(int currentKnot)
     }
 }
 
-std::string processGraphCSV(const std::string& csv) {
+std::string task(const std::string& csv) {
     children.clear(); 
     parents.clear();
     knots.clear();
