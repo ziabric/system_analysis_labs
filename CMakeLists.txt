@@ -7,3 +7,5 @@ include_directories(./)
 add_executable(task1 task1/task.cpp)
 
 add_executable(test2 tests/test2.cpp)
+
+add_executable(test3 tests/test3.cpp)

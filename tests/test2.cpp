@@ -5,7 +5,7 @@
 int main() 
 {
     std::string csv = "1,2\n1,3\n3,4\n3,5";
-    auto result = processGraphCSV(csv);
+    auto result = task(csv);
 
     std::cout<<result<<std::endl;
 

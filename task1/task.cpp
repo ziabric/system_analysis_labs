@@ -9,16 +9,20 @@ std::string getItemFromCSV(const std::string& filename, char delimiter, int row,
     std::string line;
     int currentRow = 0;
 
-    while (std::getline(file, line)) {
+    while (std::getline(file, line)) 
+    {
         currentRow++;
-        if (currentRow == row) {
+        if (currentRow == row) 
+        {
             std::istringstream lineStream(line);
             std::string cell;
             int currentCol = 0;
 
-            while (std::getline(lineStream, cell, delimiter)) {
+            while (std::getline(lineStream, cell, delimiter)) 
+            {
                 currentCol++;
-                if (currentCol == column) {
+                if (currentCol == column) 
+                {
                     return cell;
                 }
             }
